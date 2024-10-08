@@ -1,0 +1,34 @@
+.img-box {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 20%;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: aquamarine;
+    background-size: auto;
+}
+
+@media (min-width: 600px) and (max-width:1023) {
+    .img {
+        margin-left: 5%;
+        width: 50%;
+    }
+}
+
+@media (max-width:599) {
+    .img {
+        margin-left: 5%;
+        width: 100%;
+    }
+}
+.img:hover .hover-text {
+    opacity: 1;
+}
+h1{
+    text-align: center;
+}
